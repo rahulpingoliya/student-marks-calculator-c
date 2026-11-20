@@ -1,21 +1,23 @@
-#include <stdio.h>
 
-int main() {
-    int marks[5], total = 0;
-    float percentage;
+# Student Marks Calculator in C
 
-    printf("=== Student Marks Calculator ===\n");
+A beginner-friendly C program to calculate the total marks and percentage of 5 subjects.
 
-    for (int i = 0; i < 5; i++) {
-        printf("Enter marks of Subject %d: ", i + 1);
-        scanf("%d", &marks[i]);
-        total += marks[i];
-    }
+## Features
+- Takes marks as input for 5 subjects
+- Calculates total marks out of 500
+- Calculates percentage
+- Displays the final result
 
-    percentage = total / 5.0;
+## Language Used
+- C Programming
 
-    printf("\nTotal Marks: %d / 500\n", total);
-    printf("Percentage: %.2f%%\n", percentage);
+## Sample Output
+```text
+=== Student Marks Calculator ===
+Total Marks: 400 / 500
+Percentage: 80.00%
+```
 
-    return 0;
-}
+## Author
+Rahul Pingoliya
